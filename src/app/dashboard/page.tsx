@@ -8,8 +8,8 @@ export default function Dashboard() {
   const profile = useProfile()
 
   return (
-    <div className="flex items-center gap-2">
-      Welcome to the dashboard dear <b>{profile.user.name}</b> !!! <PartyPopperIcon size={18}/> 
+    <div className="flex flex-col md:flex-row  items-center gap-2">
+      Welcome to the dashboard <b className="flex items-center gap-1">{profile.user.name} !!! <PartyPopperIcon size={18}/>  </b> 
     </div>
   );
 }
