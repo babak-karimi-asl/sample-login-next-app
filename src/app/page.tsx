@@ -20,7 +20,7 @@ export default function Home() {
           height={38}
           priority
         />
-        <ul className="font-mono list-inside  text-sm/6 text-center sm:text-left">
+        <ul className="font-mono list-inside  text-sm/6 text-left">
           <li className=" tracking-[-.01em]">
             this is a sample project by Babak Karimi Asl.
           </li>
