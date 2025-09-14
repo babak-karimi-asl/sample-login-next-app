@@ -22,13 +22,13 @@ export default function Home() {
         />
         <ul className="font-mono list-inside  text-sm/6 text-left">
           <li className=" tracking-[-.01em]">
-            this is a sample project by Babak Karimi Asl.
+           &gt; this is a sample project by Babak Karimi Asl.
           </li>
           <li className="tracking-[-.01em]">
-            it has a login page and a dashboard page.
+           &gt; it has a login page and a dashboard page.
           </li>
           <li className="tracking-[-.01em]">
-            click button below to see.
+           &gt; click button below to see.
           </li>
         </ul>
 
